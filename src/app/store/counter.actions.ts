@@ -1,6 +1,7 @@
-import { createAction } from "@ngrx/store";
+import { createAction, props } from "@ngrx/store";
 
 export const increment = createAction(
-    '[counter] Increment'
+    '[counter] Increment',
+    // props<{email:string, pwd: string}>(),
+    props<{value:number}>()
 )
-//prefix for unique identifier for action is only a convention
