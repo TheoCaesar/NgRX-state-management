@@ -1,6 +1,6 @@
 import { createReducer } from '@ngrx/store';
 
-const initialState = 0;
+const initialState = 1000;
 
 // export const counterReducer = createReducer(
 //   initialState
