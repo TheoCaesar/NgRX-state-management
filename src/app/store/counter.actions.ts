@@ -17,3 +17,12 @@ export const decrement = createAction(
     '[Counter] Decrement',
     props<{value: number}>() 
 )
+
+export const init = createAction(
+    "[Counter] init",  //no args
+)
+
+export const set = createAction(
+    "[Counter] Set",
+    props<{value:number}>()
+)
